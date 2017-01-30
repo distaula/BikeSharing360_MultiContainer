@@ -1,4 +1,4 @@
-version: '2'
+version: '2.1'
 
 services:
   # .NET Core
@@ -30,10 +30,10 @@ services:
       dockerfile: Dockerfile
 
   # Node.js
-  ridesapi:
-    image: bikesharingw-on.azurecr.io/ridesapi
-    environment:
-      - port=80
-    ports:
-      - "80"
+  #ridesapi:
+  #  image: bikesharingw-on.azurecr.io/ridesapi
+  #  environment:
+  #    - port=80
+  #  ports:
+  #    - "80"
 
